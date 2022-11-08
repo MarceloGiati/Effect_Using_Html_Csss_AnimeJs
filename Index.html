@@ -14,32 +14,16 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script src="./src/js/container.js"></script>
+    <!-- <script src="./src/js/container.js"></script> -->
     <!-- <script src="./src/js/anime.js"></script> -->
+
     <script>
         const block = document.querySelectorAll('.block');
-        const animation = anime.time({
+        const animation = anime.timeline({
             targets: block,
             easing: 'easeInOutExpo',
-            loop: true,
+            // loop: true,
         }) 
-
-        animation 
-        .add({
-            scale: 0,
-            translateX: function(){ return anime.random (-360, 2100);},
-            translateY: function(){ return anime.random (-360, 2100);},
-            rotate: function(){ return anime.random (-360, 360);},
-            duration: function(){ return anime.randon(500, 3000);}
-        })
-
-        .add({
-            scale: 1,
-            translateX: 0,
-            translateY: 0,
-            rotate: 0,
-            duration: function(){ return anime.randon(500, 3000);}
-        })
     </script>
 </body>
 </html>
