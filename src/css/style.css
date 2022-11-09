@@ -7,7 +7,7 @@
 body {
     min-height: 100vh;
     overflow: hidden;
-    background: #000;
+    background: #333;
 }
 
 .container {
@@ -22,11 +22,11 @@ body {
     position: relative;
     width: 5vw;
     height: 5vw;
-    background: #f00; /*#f00*/
-    /* background-size: cover; */
-    /* background-attachment: fixed;
-    background-position: center; */
-    /* border: 1px solid #111;
-    box-sizing: border-box; */
-    /* transform-style: preserve-3d; */
+    background-image: url(../imagens/pexels-anna-hinckel-8538260.jpg);
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center;
+    transform-style: preserve-3d; 
+    /* border: 1px solid #000;
+    box-sizing: border-box;   */
 }
